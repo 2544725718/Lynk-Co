@@ -193,7 +193,7 @@ $(function () {
           _this.$all.prop('checked', false);
         }
 
-        
+
       }); // 批量删除
 
       this.$removes.click(function () {
@@ -203,7 +203,7 @@ $(function () {
         initial();
         _this.$all.prop('checked', false);
       });
-      
+
     }
   };
   toDoList.init();
@@ -271,7 +271,7 @@ function initial() {
       money += count; //统计所有小计总和
 
       i++;
-    } else {}
+    } else { }
   });
   $(".zongji").text(money); //设置商品总价
 }
