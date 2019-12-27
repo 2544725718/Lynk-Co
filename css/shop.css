@@ -1,0 +1,469 @@
+body{
+    background-color: #000000;
+}
+.x-s-head{
+    width: 100%;
+    height: 60px;
+    position: fixed;
+    background-color: #000000;
+    z-index: 1;
+}
+.x-s-heard{
+    width: 1300px;
+    height: 60px;
+    margin: 0 auto;
+}
+.x-s-heard img{
+    margin-top: 15px;
+}
+.x_inp{
+    width: 220px;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid #565656;
+    float: left;
+    position: relative;
+    left: -20px;
+    margin-left: 20px;
+    background-color: #1f1f1f;
+}
+.x_inp span{
+    font-size: 16px;
+    position: absolute;
+    left: 5px;
+    top: 7px;
+    color: white;
+}
+.x-inp{
+    width: 170px;
+    height: 30px;
+    border-radius: 5px;
+    border: 0;
+    outline: none;
+    padding-left: 4px;
+    padding-right: 2px;
+    font-size: 14px;
+    float: left;
+    color: white;
+    position: absolute;
+    left: 24px;
+    background-color: #1f1f1f;
+}
+.x-head-r{
+    width: 440px;
+    height: 60px;
+    margin-top: 15px;
+}
+.x-head-r ul li{
+    float: left;
+    font-size: 12px;
+    color: white;
+}
+.x-head-r ul li a{
+    color:white;
+}
+.x-head-r ul .x-icon{
+    font-size: 20px;
+    margin-right: 5px;
+    margin-left: 15px;
+    margin-top: 3px;
+}
+.x-x{
+    margin-top: 8px;
+    margin-right: 20px;
+}
+.x-nav{
+    width: 100%;
+    height: 60px;
+    position: relative;
+    top: 60px;
+}
+.x-nav1{
+    width: 1300px;
+    height: 60px;
+    margin: 0 auto;
+}
+.x-nav1 img{
+    width: 129px;
+    height: 35px;
+    margin-top: 25px;
+}
+.x-nav1 ul{
+    float: right;
+    display: flex;
+    justify-content: space-between;
+    width: 1070px;
+    margin-top: 30px;
+}
+.x-nav1 ul li{
+    font-size: 20px;
+    color: white;
+    cursor: pointer;
+}
+.shop-list{
+    width: 100%;
+    height: 1000px;
+}
+.x-shopl-all{
+    width: 1126px;
+    height: 1000px;
+    margin: 200px auto;
+}
+.x-shopl-l{
+    width: 200px;
+    height: 520px;
+    float: left;
+}
+.x-fl,.x-xl,.x-fw{
+    width: 160px;
+    font-size: 18px;
+    color: white;
+    margin-top: 12px;
+}
+.x-fl span,.x-fw span,.x-xl span{
+    font-size: 24px;
+    float: right;
+    cursor: pointer;
+}
+.x-list1,.x-list2,.x-list3{
+    font-size: 12px;
+    text-align: center;
+}
+.x-list1,.x-list2 li,.x-list3 li{
+    margin-top: 30px;
+    cursor: pointer;
+}
+.toggle-line:before {
+    content: "";
+    height: 45%;
+    border-right: 1px solid #f54359;
+    position: absolute;
+    right: -300px;
+}
+.toggle-line:after{
+    content: "";
+    height: 45%;
+    border-right: 1px solid #f54359;
+    position: absolute;
+    right: -300px;
+    top: 260px;
+}
+.toggle-line {
+    position: absolute;
+    display: block;
+    height: 500px;
+    top: 40vh;
+    left: 3.255rem;
+    -webkit-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+}
+.toggle-line .toggle-expanded {
+    position: absolute;
+    right: -300px;
+    top: calc(50% - .195rem);
+    color: #f54359;
+    font-size: .339rem;
+    cursor: pointer;
+    -webkit-transform-origin: 50% 50%;
+    transform-origin: 50% 50%;
+    -webkit-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+}
+.toggle-expanded img{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    left: -13px;
+    top: -15px;
+}
+.x-xiaol{
+    width: 300px;
+    height: 25px;
+    margin-left: 280px;
+}
+.x-xiaoli{
+    display: flex;
+    justify-content: space-between;
+}
+.x-xiaoli li{
+    float: left;
+    font-size: 14px;
+    color: white;
+    margin-top: 7px;
+    cursor: pointer;
+}
+.x-box1,.x-box4,.x-box7,.x-box10,.x-box13,.x-box16{
+    width: 265px;
+    float: left;
+    margin-left: 80px;
+    margin-top: 60px;
+    margin-right: 20px;
+    overflow: hidden;
+}
+.x-box2,.x-box5,.x-box8,.x-box11,.x-box14,.x-box17{
+    width: 265px;
+    float: left;
+    margin-top: 150px;
+    margin-right: 20px;
+    overflow: hidden;
+}
+.x-box3,.x-box6,.x-box9,.x-box12,.x-box15,.x-box18{
+    width: 265px;
+    float: left;
+    margin-top: 100px;
+    overflow: hidden;
+}
+.x-boxall .x-box{
+    display: none;
+}
+.x-boxall dl{
+    width: 265px;
+    height: 350px;
+    background-color: #161616;
+    margin-bottom: 22px;
+}
+.x-boxall .x-box dl dt{
+    width: 265px;
+    height:265px;
+    overflow: hidden;
+}
+.x-boxall dl img{
+    width: 265px;
+    height:265px;
+    transition: all .5s ease-in-out;
+}
+.x-boxall dd .img-x{
+    position: absolute;
+    right: 10px;
+    /* display: none; */
+}
+.x-boxall dd .left_btn{
+    z-index: 1;
+    position: relative;
+}
+.x-boxall dl dt img:hover{
+    width: 270px;
+    height:270px;
+    transition: all .5s ease-in-out;
+}
+.x-boxall dd img{
+    width: 30px;
+    height: 30px;
+    float: right;
+    cursor: pointer;
+}
+.x-boxall dd{
+    font-size: 18px;
+    color: #03c6b0;
+    margin-top: 5px;
+    padding: 0 10px;
+    position: relative;
+}
+.x-shoplist1 .x-dd1{
+    margin-top: 20px;
+}
+.x-boxall dd a{
+    font-size: 12px;
+    color: white;
+}
+.x-fenye{
+    width: 800px;
+    height: 35px;
+    float: right;
+    position: relative;
+    margin-right: -60px;
+    top: -20px;
+    display: flex;
+    justify-content: flex-end;
+    font-size: 12px;
+    align-items: center;
+    color: white;
+}
+.x-fenye a{
+    color: white;
+    margin-right: 5px;
+}
+.x-p{
+    margin-left: 30px;
+    margin-right: 35px;
+}
+.x-inp2{
+    width: 38px;
+    height: 30px;
+    border-radius: 4px;
+    border: 0;
+    outline: none;
+    text-align: center;
+    color: white;
+    background-color: #222222;
+}
+.btn-ok{
+    width: 60px;
+    height: 28px;
+    margin-left: 12px;
+    border-radius: 3px;
+    border: 0;
+    background-color: #222222;
+    color: white;
+    cursor: pointer;
+    outline:0 none !important;
+}
+.x-floor3{
+    width: 100%;
+    height: 30px;
+    float: left;
+    margin-bottom: 20px;
+    margin-top: 80px;
+}
+.x-floor3 ol{
+    display: flex;
+    justify-content:space-around;
+    width: 500px;
+    height: 30px;
+    margin: 0 auto;
+}
+.x-floor3 ol li{
+    float: left;
+    font-size: 16px;
+    color: white;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.x-floor3 ol li:hover{
+    color: #f54359;
+}
+.x-floor4{
+    width: 100%;
+    background: white;
+    height: 55px;
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+}
+.x-floor5{
+    width: 860px;
+    height: 20px;
+    margin: 0 auto;
+    text-align: center;
+}
+.x-floor5 span{
+    font-size: 14px;
+    color: #000000;
+}
+.x-floor5 img{
+    cursor: pointer;
+}
+.x_position{
+    width: 80px;
+    right: 0;
+    top: 50%;
+    margin-top: -83px;
+    position: fixed;
+    border-radius: 3px 3px 0 0;
+}
+.x_position div{
+    width: 80px;
+    height: 80px;
+    border-bottom: 1px solid #000;
+    background-color: #333333;
+    color: #a5a5a5;
+    font-size:30px ;
+    font-weight: 300;
+    text-align: center;
+    line-height: 80px;
+    cursor: pointer;
+    transition: all .5s ease-in-out;
+}
+.x_position .x-bigtop{
+    display: none;
+}
+.x_position div:hover{
+    background-color: #f54359;
+    transition: all .5s ease-in-out;
+    color: white;
+}
+
+.x-bigkf{
+    padding-left: 8px;
+}
+.x-nav1 .x-color{
+    color: #f54359;
+}
+.x-fl .x-jia{
+    font-size: 13px;
+    font-weight: bold;
+    position: relative;
+    left: -5px;
+    top: 7px;
+    display: none;
+}
+.x-fw .x-jia{
+    font-size: 13px;
+    font-weight: bold;
+    position: relative;
+    left: -5px;
+    top: 7px;
+    display: none;
+}
+.x-xl .x-jia{
+    font-size: 13px;
+    font-weight: bold;
+    position: relative;
+    left: -5px;
+    top: 7px;
+    display: none;
+}
+.x-xiaoli .x-show{
+    color: #f54359;
+}
+.toggle-line .x-im{
+    left: -10px;
+    top: -16px;
+    display: none;
+}
+.x-boxall .x-active{
+    display: none;
+}
+.x-boxall .x-show{
+    display: block;
+}
+.x-boxall{
+    z-index: 9999;
+    background-color: #000000;
+}
+.h-header-relative{
+    box-sizing: border-box;
+    position: absolute;
+    width: 222px;
+    padding: 12px;
+    background: rgba(66,66,66,.8);
+    border: 1px solid #565656;
+    border-radius: 3px;
+    display: none;
+    top: 45px;
+}
+.h-header-relative-title-font{
+    color: #9a9a9a;
+    padding: 0 0 8px;
+    font-size: 14px;
+}
+.h-header-relative-title{
+    padding: 0 0 8px;
+}
+#relect{
+    padding: 28px 0 8px;
+}
+.h-header-relative-title>i{
+    font-size: 16px;
+    color: #fff;
+    cursor: pointer;
+    float:right;
+}
+.h-header-relative-list{
+    height: 28px;
+    color: #fff;
+    font-size: 14px;
+    padding: 0 0 0 22px;
+    line-height: 28px;
+    cursor: pointer;
+}

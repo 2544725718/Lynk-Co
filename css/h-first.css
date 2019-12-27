@@ -1,0 +1,416 @@
+.body{
+    font-size: 14px;
+}
+.h-all{
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+}
+.h-header{
+    width: 100%;
+    height: 60px;
+    padding: 0 60px;
+    align-items: center;
+    display: flex;
+    box-sizing: border-box;
+    position: fixed;
+    top: 0;
+    z-index: 99999;
+    justify-content: space-between;
+    background-color: #000;
+}
+.h-header-logo{
+    display: inline-block;
+    height: 19px;
+}
+
+
+
+.h-header-content{
+    box-sizing: border-box;
+    width: 460px;
+    height: 30px;
+}
+.h-header-search-wrapper{
+    float: left;
+    box-sizing: border-box;
+    width: 240px;
+    height: 30px;
+}
+.h-header-search{
+    box-sizing: border-box;
+    background-color: #1f1f1f;
+    border: 1px solid #565656;
+    border-radius: 3px;
+    width: 240px;
+    height: 32px;
+    padding: 0 5px;
+}
+.h-header-search-font{
+    box-sizing: border-box;
+    color: #fff;
+    font-size: 16px ;
+    line-height: 30px;
+}
+.h-header-search .val{
+    width: 200px;
+    height: 15px;
+    padding: 0 0 0 2px;
+    color: #fff;
+    background-color: transparent; 
+    border: none;
+    outline: none;
+    margin: 0 0 0 5px;
+}
+
+
+
+.h-header-relative{
+    box-sizing: border-box;
+    position: absolute;
+    width: 240px;
+    padding: 12px;
+    background: rgba(66,66,66,.9);
+    border: 1px solid #565656;
+    border-radius: 3px;
+    display: none;
+}
+.h-header-relative-title-font{
+    color: #9a9a9a;
+    padding: 0 0 8px;
+    font-size: 14px;
+}
+.h-header-relative-title{
+    padding: 0 0 8px;
+}
+#relect{
+    padding: 28px 0 8px;
+}
+.h-header-relative-title>i{
+    font-size: 16px;
+    color: #fff;
+    cursor: pointer;
+    float:right;
+}
+.h-header-relative-list{
+    height: 28px;
+    color: #fff;
+    font-size: 14px;
+    padding: 0 0 0 22px;
+    line-height: 28px;
+    cursor: pointer;
+}
+
+
+
+.h-mennu{
+    line-height: 30px;
+}
+.h-mennu a{
+    color: #fff;
+}
+.h-mennu span{
+    margin-right: 15px;
+    font-size: 13px;
+}
+.h-mennu-car{
+    cursor: pointer;
+    color: #fff;
+    margin-left: 15px;
+    font-size: 20px !important;
+}
+
+/* 
+头部结束 
+*/
+
+
+
+
+
+
+.h-nav{
+    height: 72px;
+    background-color: #000;
+    margin-top: 60px;
+    display: flex;
+    padding-left: 60px;
+    overflow: hidden;
+}
+.h-nav-logo{
+    display: inline-block;
+    font-size: 28px;
+    color: #fff;
+    line-height: 72px;
+    cursor: pointer;
+}
+.menus{
+    width: 1050px;
+    height: 72px;
+    float: right;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.h-nav-menus{
+    width: 100%;
+    height: 72px;
+    box-sizing: border-box;
+    float: right;
+    background: #000;
+}
+.h-nav-wrapper{
+    z-index: 99;
+}
+.swiper-wrapper .h-menu{
+    font-size: 17px;
+    width: 128px;
+    height: 72px;
+    line-height: 72px;
+    margin-right: 60px;
+}
+.swiper-wrapper .h-menu a{
+    color: #fff;
+}
+/* 导航栏结束 */
+
+
+
+
+
+#h-swiper-current{
+    width: 441px;
+    height: 5px;
+    color: #cc3838;
+}
+#h-slideHeight{
+    padding-top: 77px;
+}
+.h-img1{
+    width: 100%;
+    height: 775px;
+}
+.h-img1 .h-img1-a{
+    width: 100%;
+    height: 775px;
+}
+
+/* banner图结束 */
+
+
+
+.h-timelimit-shop{
+    width: 100%;
+    height: 180px;
+    background-color: #000;
+}
+.h-mo-btn{
+   height: 180px;
+   text-align: right;
+   padding-right: 50px;
+}
+.h-mo-co{
+    line-height: 180px;
+    color: #fff;
+    cursor: pointer;
+}
+.h-font-right{
+    color: #fff;
+}
+/* 结束 */
+
+
+
+
+
+
+
+
+.h-series-carousel{
+    width: 100%;
+    height: 594px;
+}
+.h-series-wrapper{
+    width: 276px;
+    height: 594px;
+    background-color: #2b2b2b;
+    padding: 70px 0 0 100px;
+    box-sizing: border-box;
+    float: left;
+}
+.h-series{
+    font-size: 20px;
+    color: #969696;
+    margin: 40px 0 0;
+    cursor: pointer;
+}
+.h-change{
+    color: #fff;
+    font-size: 32px;
+}
+.h-change-d{
+    color: #ff5066;
+    margin-left: 10px;
+    font-size: 14px;
+    font-weight: 700;
+    text-shadow: 0 0 8px #ff5066
+}
+
+
+
+
+
+
+.h-swiper-a-all{
+    width: 1050px;
+    height: 594px;
+    float: right;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.h-swiper-cony{
+    width: 100%;
+    height: 594px;
+    box-sizing: border-box;
+    float: right;
+    background: #000;
+}
+.h-swiper-img1{
+    z-index: 99;
+}
+.h-swiper-img1 .h-swiper-right{
+    display: inline-block;
+    height: 594px;
+    width: 355px;
+}
+/* 轮播图结束 */
+
+
+
+.h-head-top{
+    padding-top: 47px;
+    padding-left: 87px;
+}
+.h-title{
+    color: #fff;
+    font-size: 28px;
+}
+.h-text{
+    margin-right: 18px;
+}
+.h-title .h-redline{
+    transform: skew(-38deg);
+    color: #f54359;
+    text-shadow: 0 0 5px #ff5066;
+    font-weight: 700;
+    font-size: 32px;
+    display: inline-block;
+}
+.h-subtitle{
+    opacity: .6;
+    font-size: 16px;
+    color: #fff;
+    margin-top: 15px;
+}
+.h-a-carouse .h-carousel-1{
+    display: inline-block;
+    width: 500px;
+    height: 300px;
+}
+
+
+.h-foot-menu{
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 20px;
+    padding-bottom: 18px;
+    display: flex;
+    justify-content: center;
+    background-color: #000;
+}
+.h-menu-block{
+    margin:0 44px;
+}
+.h-menu-title{
+    color: #fff;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+
+.h-foot-bottom{
+    border-top: 1px solid #111;
+    background: #fff;
+    text-align: center;
+} 
+
+.h-bottom-inside{
+    width: 100%;
+    margin: auto;
+    background-color: #fff;
+    padding: 18px 0;
+    font-size: 14px;
+    display: inline-block;
+    text-align: center;
+    line-height: 18px;
+    font-weight: 500;
+}
+.h-chat{
+    display: inline-block;
+    margin-bottom: 0;
+    vertical-align: middle;
+    color: #000;
+}
+.h-wechat-icon{
+    margin-left: 8px;
+    margin-right: 8px;
+}
+.h-we-icon{
+    color: #000;
+}
+.h-bottom-inside>span{
+    display: inline-block;
+    margin-bottom: 0;
+    vertical-align: middle;
+    color: #000;
+}
+.h-component-site-tools{
+    position: fixed;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 9999;
+}
+.h-component-site-tools ul li{
+    width: 60px;
+    height: 60px;
+    background: hsla(0,0%,100%,.2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    margin-bottom: 6px;
+    transition: all .5s ease-in-out;
+}
+#h-cart:hover{
+    background-color: #f54359;
+    transition: all .5s ease-in-out;
+}
+.h-component-site-tools ul li i{
+    color: #aaa;
+    font-size: 30px;
+    transition: all .5s ease-in-out;
+}
+.h-component-site-tools ul .h-fanhuidingbu{
+    color: #aaa;
+    font-size: 30px;
+    display: flex;
+    background: hsla(0,0%,100%,.2);
+    justify-content: center;
+    align-items: center;
+    transition: all .5s ease-in-out;
+}
+#h-jiantou{
+    display: block;
+    text-align: center;
+    line-height: 60px;
+}

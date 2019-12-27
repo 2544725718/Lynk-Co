@@ -1,0 +1,235 @@
+body{
+    background-color: black;
+    color: white;
+    
+}
+.Service_img {
+    margin-top: 70px;
+}
+.bannertitle {
+    display: block;
+    align-items: center;
+    position: relative;
+}
+.bannertitle img.pcs {
+    display: block;
+}
+.Service_img img {
+    width: 100%;
+}
+.bannertitle .bannertitlep {
+    top: 140px;
+}
+.bannertitle .bannertitlep {
+    margin-top: 0.5rem;
+}
+.bannertitle .bannertitlep {
+    height: 10.2rem;
+    margin-left: 18.7%;
+    position: absolute;
+    font-size: 45px;
+    letter-spacing: 2px;
+}
+.bannertitle .bannertitlep p {
+    margin-bottom: 10px;
+}
+.bannertitle .bannertitlep p:last-child {
+    margin: 0;
+    font-size: 38px;
+    letter-spacing: 8px;
+}
+.Nav {
+    width: 63%;
+    margin: auto;
+    text-align: center;
+    background-color: black;
+  }
+  .Nav ul {
+    padding: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+  .Nav ul > li {
+    margin: 0px;
+    flex-grow: 1;
+  }
+  .Nav ul li a {
+    color: #999;
+    display: block;
+    padding: 12px 0;
+    background-color: #1f1e1e;
+    width: 100%;
+    text-decoration: none;
+    font-size: 12px;
+    letter-spacing: 2px;
+  }
+
+.Service-text {
+    margin-top: 20px;
+}
+.point-photo {
+    width: 63%;
+    text-align: center;
+    margin: 2% auto;
+    margin-bottom: 0;
+    white-space: nowrap;
+    display: flex;
+}
+
+.Service-text {
+    text-align: center;
+    font-size: 32px;
+    letter-spacing: 1.2px;
+    font-weight: bold;
+    display: block;
+}
+.point-text {
+    transform: translateY(-75px);
+    padding: 135px 0 100px 0;
+    position: relative;
+    width: 100%;
+    height: auto;
+    background-color: #111111;
+}
+.Text-h {
+    width: 60%;
+    top: 28%;
+    left: 17%;
+    padding-left: 4%;
+    padding-right: 2%;
+    padding: 0 6.5%;
+    display: none;
+    margin-left: 15%;
+}
+.point-text .Text-h h4 {
+    color: #fff;
+    font-size: 25px;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.1;
+}
+
+.point-text .Text-h p {
+    color: #d2d1d1;
+    font-size: 13px;
+    letter-spacing: 1px;
+    line-height: 24px;
+    margin: 0 0 7px;
+}
+p { word-wrap:break-word; }
+
+.photo_img:first-child {
+    margin-left: 0;
+}
+.photo_img {
+    display: inline-block;
+    width: calc((100% - 60px) / 4);
+    position: relative;
+    margin: 0 10px;
+    z-index: 1;
+}
+.photo_img {
+    display: inline-block;
+    width: calc((100% - 60px) / 4);
+    position: relative;
+    margin: 0 10px;
+    z-index: 1;
+}
+.photo_img img {
+    width: 100%;
+}
+.pcs {
+    display: block;
+}
+img {
+    vertical-align: middle;
+}
+.photo_img img {
+    width: 100%;
+}
+.phs {
+    display: none;
+}
+img {
+    vertical-align: middle;
+}
+img {
+    border: 0;
+}
+
+.cover-text {
+    color: #fff;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    text-align: center;
+    font-size: 16px;
+    background-color: rgba(0, 0, 0, 0.9);
+}
+.cover-text p {
+    POSITION: ABSOLUTE;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    transform: translate(-50%, -50%);
+}
+.cover-text.Active {
+    display: none;
+}
+.active2 {
+    display: block;
+}
+
+
+.Overlay-Eff {
+    position: relative;
+    width: 63%;
+    margin: auto;
+}
+.Overlay {
+    width: 100%;
+    margin: 0px auto;
+    display: block;
+}
+.Overlay img {
+    width: 100%;
+}
+.pcs {
+    display: block;
+}
+.Overlay-text {
+    width: 100%;
+    height: 100%;
+    padding: 11% 36% 0 12% !important;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.9);
+    overflow: hidden;
+    display: none;
+    box-sizing: border-box;
+}
+.Overlay-text h3 {
+    font-size: 25px;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.1;
+    color: inherit;
+}
+.Overlay-text p {
+    font-size: 13px;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+.Overlay-Eff:hover .Overlay-text {
+    display: block;
+}

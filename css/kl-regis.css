@@ -1,0 +1,374 @@
+.kl-all{
+    width: 100%;
+    height: 60px;
+    background-color: #000;
+    border: none;
+    overflow: hidden;
+    z-index: 1000;
+    border-radius: 0;
+    position: fixed;
+    top: 0;
+}
+.kl-warp{
+    box-sizing: border-box;
+    width: 100%;
+    height: 60px;
+    padding: 0 68px;
+    transition: all .5s ease-in-out;
+    text-align: center;
+    position: relative;    
+}
+.kl-logoli{
+    box-sizing: border-box;
+    height: 60px;
+    padding: 20px 0;
+}
+.kl-logoli img{
+    cursor: pointer;
+    width: 122px;
+}
+.kl-warp-right{
+    margin: 0;
+    position: absolute;
+    top: 0;
+    right: 40px;
+}
+.kl-list{
+    float: right;
+}
+.kl-list li{
+    box-sizing: border-box;
+    float: left;
+    padding-top: 15px;
+    font-size: 15px;
+    font-weight: 300;
+    height: 60px;
+}
+.kl-list-lis{
+    margin-right: 26px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.kl-logon{
+    margin-top: 60px;
+    height: 100%;
+    background-color: #000;
+}
+.kl-logoing{
+    min-height: auto;
+}
+.kl-logoing h3{
+    text-align: center;
+    padding: 40px;
+    font-size: 35px;
+    color: #fff;
+}
+#kl-login-form{
+    width: 90%;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 0;
+}
+.kl-fieldset{
+    border: 0;
+}
+.kl-formgroup{
+    margin-bottom: 20px;
+    position: relative;
+    margin-top: 40px;
+}
+
+
+#kl-errory{
+    color: #ede816;
+    margin-top: 10px;
+}
+#kl-error{
+    color: #ede816;
+    margin-top: 10px;
+}
+#kl-erroryr{
+    color: #ede816;
+    margin-top: 10px;
+}
+.kl-ipt-text{
+    width: 400px;
+    height: 46px;
+    border-bottom: 1px solid #fff;
+    box-sizing: border-box;
+}
+.kl-ipt-text::before{
+    border-left: 1px solid #fff;
+    content: '';
+    display: block;
+    height: 50%;
+    position: absolute;
+    bottom: 0;
+}
+.kl-logonlabel{
+    position: absolute;
+    left: 20px;
+    bottom: 14px;
+    color: #dddddd;
+    opacity: 0.4;
+}
+#kl-login-by{
+    background: 0 0;
+    border: 0;
+    color: #fff;
+    padding: 10px 20px;
+    outline: 0;
+    width: 100%;
+    font-size: 16px;
+    height: 46px;
+    display: inline-block;
+    box-sizing: border-box;
+}
+
+
+
+.kl-ipt-yan{
+    width: 400px;
+    height: 46px;
+    border-bottom: 1px solid #fff;
+    box-sizing: border-box;
+
+}
+.kl-ipt-yan::before{
+    border-left: 1px solid #fff;
+    content: '';
+    display: block;
+    height: 50%;
+    position: absolute;
+    bottom: 0;
+}
+.kl-logoncapt{
+    position: absolute;
+    left: 20px;
+    bottom: 14px;
+    color: #dddddd;
+    opacity: 0.4;
+}
+#kl-captcha{
+    background: 0 0;
+    border: 0;
+    color: #fff;
+    padding: 10px 20px;
+    outline: 0;
+    width: 100%;
+    font-size: 16px;
+    height: 46px;
+    display: inline-block;
+    box-sizing: border-box;
+}
+
+
+
+
+
+
+
+.kl-ipt-mima{
+    width: 400px;
+    height: 46px;
+    border-bottom: 1px solid #fff;
+    box-sizing: border-box;
+
+}
+.kl-ipt-mima::before{
+    border-left: 1px solid #fff;
+    content: '';
+    display: block;
+    height: 50%;
+    position: absolute;
+    bottom: 0;
+}
+.kl-logonlabel-mima{
+    position: absolute;
+    left: 20px;
+    bottom: 14px;
+    color: #dddddd;
+    opacity: 0.4;
+}
+#kl-login-by-mima{
+    background: 0 0;
+    border: 0;
+    color: #fff;
+    padding: 10px 20px;
+    outline: 0;
+    width: 100%;
+    font-size: 16px;
+    height: 46px;
+    display: inline-block;
+    box-sizing: border-box;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.kl-text-aline{
+    margin-top: 20px;
+    text-align: center;
+}
+.kl-removapass{
+    padding: 10px;
+    color: #fff;
+    text-align: center;
+}
+
+.kl-passlogon{
+    text-decoration: underline;
+    color: #fff;
+}
+
+
+
+
+
+
+
+
+
+.kl-donghua{
+    width:150px;
+    height:50px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+.svg-wrapper{
+    width:150px;
+    height:50px;
+    display:inline-block;
+    border-radius:3px;
+}
+#shape{
+    stroke-width:6px;
+    fill:transparent;
+    stroke:#009FFD;
+    stroke-dasharray:85 400;
+    stroke-dashoffset:-220;
+    transition:1s all ease;
+}
+#kl-nc-text-lect{
+    margin-top:-40px;
+    text-align:center
+}
+#kl-nc-text-lect a{
+    color:white;
+    text-decoration:none;
+    font-weight:100;
+    font-size: 16;
+}
+.svg-wrapper:hover #shape{
+    stroke-dasharray:50 0;
+    stroke-width:3px;
+    stroke-dashoffset:0;
+    stroke:rgba(10, 245, 155, 0.966);
+}
+
+
+
+
+
+
+
+.kl-foot-menu{
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 30px;
+    padding-bottom: 28px;
+    display: flex;
+    justify-content: center;
+    background-color: #000;
+}
+.kl-menu-block{
+    margin:0 24px;
+}
+.kl-menu-title{
+    color: #fff;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+
+
+
+
+
+.kl-foot-bottom{
+    border-top: 1px solid #111;
+    background: #fff;
+    text-align: center;
+} 
+.kl-bottom-inside{
+    width: 100%;
+    margin: auto;
+    background-color: #fff;
+    padding: 18px 0;
+    font-size: 14px;
+    display: inline-block;
+    text-align: center;
+    line-height: 18px;
+    font-weight: 500;
+}
+.kl-chat{
+    display: inline-block;
+    margin-bottom: 0;
+    vertical-align: middle;
+    color: #000;
+}
+.kl-wechat-icon{
+    margin-left: 8px;
+    margin-right: 8px;
+}
+.kl-we-icon{
+    color: #000;
+}
+.kl-bottom-inside>span{
+    display: inline-block;
+    margin-bottom: 0;
+    vertical-align: middle;
+    color: #000;
+}
+.kl-component-site-tools{
+    position: fixed;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 9999;
+}
+.kl-component-site-tools ul li{
+    width: 80px;
+    height: 80px;
+    background: hsla(0,0%,100%,.2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    margin-bottom: 26px;
+    transition: all .5s cubic-bezier(.77,0,.175,1);
+}
+.kl-component-site-tools ul li i{
+    color: #aaa;
+    font-size: 30px;
+    transition: all .5s ease-in-out;
+}
